@@ -24,7 +24,7 @@
 
 ----
 ## Conhecimento Técnico
->17-Feb-2013 re-design
+>
 
 ----
 ## Observação
