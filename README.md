@@ -3,7 +3,7 @@
 ## Estruturação de Time
 >Para uma equipe de BI atender a todas áreas da Delivery Much, creio que a melhor forma seria horizontalmente, onde atenderia a todos os times e ficaria abaixo de CTO, CEO e CFO & COO.
 
-![alt text](https://github.com/theadriano/DeliveryMuch/issues/1) "Delivery Much BI"
+[logo]: (https://github.com/theadriano/DeliveryMuch/blob/master/deliverymuch.PNG)
 
 > Para a estruturação de time, antes de mais nada, teria que entender as demandas totais de trabalho para serem analisados os perfis a serem disponibilizados. Entretanto, penso que para compôr um time de BI deveria ter profissionais como: Arquiteto de Dados, responsável em organizar o Data Warehouse ou Data Lake; Engenheiro de Dados, responsável na construção dos pipelines que irão popular o DW ou o Data Lake; Analista de Dados, responsável pela construção dos dashboards dentro da ferramenta utilizada na Delivery Much.
 
