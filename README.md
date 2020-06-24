@@ -70,4 +70,4 @@ Abaixo está o link para o Tableau mostrando os dashboards criados:
 ----
 ## Observação
 
-Adicionei o e-mail tech.challenge@deliverymuch.com.br para que possa visualizar o Kanban na ferramenta Trello.
+Adicionei o e-mail tech.challenge@deliverymuch.com.br para que possa visualizar o Kanban na ferramenta Trello e, também, o e-mail foi adicionado no Google Cloud para que possa ver os processos Airflow.
