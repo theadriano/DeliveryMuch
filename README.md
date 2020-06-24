@@ -39,7 +39,7 @@ Usei a plataforma do Google Cloud para poder fazer a extração e análise dos d
 No Google Cloud Plataform, utilizei o Google Big Query para fazer a análise das tabelas. Decidi utilizar o Big Query pois ele armazena dados de diferentes formatos e tem particionamento de tabelas. E, também, utilizei Cloud Storage para melhor utilizar os source files.
 Para a criação do dashboard, utilizei o Tableau, onde fiz conexão com o Google Big Query.
 
-
+![Google Cloud Plataform](https://github.com/theadriano/DeliveryMuch/blob/master/google%20cloud%20plataform.PNG)
 
 Usei a plataforma do Google Cloud para poder fazer a extração e análise dos dados. Escolhi essa plataforma pois, dentre as plataformas cloud que já utilizei, a da Google foi com a qual me senti mais facilidade para o trabalho. Dentro dela, consegui fazer upload dos arquivos compartilhados para o teste dentro de um composer para ser utilizado o Apache Airflow. O composer é um kubernete que é serverless, sendo fácil a utilização pois inicia com um serviço ou aplicação que queira. Além disso, o Apache Airflow é melhor para o monitoramento das tasks. Dentro do Apache Airflow utilizei a linguagem Python para fazer a manipulação das tasks.
 No Google Cloud Plataform, utilizei o Google Big Query para fazer a análise das tabelas. Decidi utilizar o Big Query pois ele armazena dados de diferentes formatos e tem particionamento de tabelas. E, também, utilizei Cloud Storage para melhor utilizar os source files.
