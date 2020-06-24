@@ -28,7 +28,7 @@ Após essas três etapas, o candidato sendo aprovado, seria feito todo o onboard
 
 ----
 ## Conhecimento Técnico
-
+![ETL](https://github.com/theadriano/DeliveryMuch/blob/master/ETL.PNG)
 
 ----
 ## Observação
