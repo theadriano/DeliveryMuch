@@ -50,6 +50,8 @@ Para uma sprint quinzenal, envolvendo 5 analistas, baseei-me na seguinte pontuaÃ
 
 >[Link Kanban](https://trello.com/b/YdH9EJgi/delivery-much)
 
+![Kanban](https://github.com/theadriano/DeliveryMuch/blob/master/kanban.PNG)
+
 ----
 ## Conhecimento TÃ©cnico
 ![Google Cloud Plataform](https://github.com/theadriano/DeliveryMuch/blob/master/google%20cloud%20plataform.PNG)
