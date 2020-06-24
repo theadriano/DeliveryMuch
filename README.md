@@ -16,7 +16,7 @@ Após o levantamento das características de perfis para o time, seria dado iní
 2. Teste técnico focando nas características da vaga. Por exemplo, na vaga para um Analista de Dados, seria confeccionado um teste em que o candidato deveria criar um dashboard com os dados fornecidos pela Delivery Much.
 3. Uma entrevista final, nesse caso com o Gerente de BI, para ele entender completamente o perfil do candidato.
 
-Após essas três etapas, o candidato sendo aprovado, seria feito todo o onboarding com o profissional onde é dado as boas-vindas e o devido treinamento é dado.
+Após essas três etapas, o candidato sendo aprovado, seria feito todo o onboarding com o profissional onde é dado as boas-vindas e o devido treinamento é aplicado.
 
 ----
 ## Visão de Negócio
