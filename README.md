@@ -26,6 +26,7 @@ Após essas três etapas, o candidato sendo aprovado, seria feito todo o onboard
 ## Gestão do dia-a-dia
 Para a criação de um backlog, utilizei a ferramenta Trello da Atlassian.
 Para uma sprint quinzenal, envolvendo 5 analistas, me basiei na seguinte pontuação Fibonacci:
+
 1 ponto - 1 hora
 
 2 pontos - 1 dia
