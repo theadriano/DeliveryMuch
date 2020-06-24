@@ -20,7 +20,7 @@
 
 ----
 ## Gestão do dia-a-dia
->[links](https://wikipedia.org)
+>
 
 ----
 ## Conhecimento Técnico
