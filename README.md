@@ -48,6 +48,8 @@ Para uma sprint quinzenal, envolvendo 5 analistas, baseei-me na seguinte pontua�
 
 21 pontos - 15 dias
 
+>[Link Kanban](https://trello.com/b/YdH9EJgi/delivery-much)
+
 ----
 ## Conhecimento Técnico
 ![Google Cloud Plataform](https://github.com/theadriano/DeliveryMuch/blob/master/google%20cloud%20plataform.PNG)
@@ -67,3 +69,5 @@ Abaixo está o link para o Tableau mostrando os dashboards criados:
 
 ----
 ## Observação
+
+Adicionei o e-mail tech.challenge@deliverymuch.com.br para que possa visualizar o Kanban na ferramenta Trello.
