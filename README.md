@@ -21,6 +21,13 @@ Após essas três etapas, o candidato sendo aprovado, seria feito todo o onboard
 ----
 ## Visão de Negócio
 
+Após a extração dos dados pertinentes, construção dos dashboards e a apresentação dos mesmos aos diretores e analistas de cada departamento, é possível ter uma visão macro de todo o negócio da Delivery Much.
+
+Os setores Financeiro e de Operações, conseguiriam traçar estratégias de como angarearmais fornecedores, em quais cidades expandir o serviço, em quais prazos de entrega aplicar melhorias, entre outros.
+
+Para os setores de Engenharia e Produto, mostraria dashboards contendo feedback dos usuários, performance do aplicativo e servidores; sempre visando a melhoria do que é entregue ao usuário final.
+
+Marketing e Gente, usuariam dashboards também para ver o feedback dos usuários e para planejar a comunicação com eles e, também, planejar a divulgação dos serviços do aplicativo.
 
 ----
 ## Gestão do dia-a-dia
@@ -35,9 +42,11 @@ Para uma sprint quinzenal, envolvendo 5 analistas, baseei-me na seguinte pontua�
 
 5 pontos - 5 dias
 
-8 pontos - 1 semana
+8 pontos - 7 dias
 
-13 pontos - 2 semanas
+13 pontos - 10 dias
+
+21 pontos - 15 dias
 
 ----
 ## Conhecimento Técnico
