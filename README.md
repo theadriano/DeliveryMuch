@@ -24,11 +24,21 @@ Após essas três etapas, o candidato sendo aprovado, seria feito todo o onboard
 
 ----
 ## Gestão do dia-a-dia
-
+Para a criação de um backlog, utilizei a ferramenta Trello da Atlassian.
+Para uma sprint quinzenal, envolvendo 5 analistas, me basiei na seguinte pontuação Fibonacci:
+1 ponto - 1 hora
+2 pontos - 1 dia
+3 pontos - 3 dias
+5 pontos - 5 dias
+8 pontos - 1 semana
+13 pontos - 2 semanas
 
 ----
 ## Conhecimento Técnico
 ![ETL](https://github.com/theadriano/DeliveryMuch/blob/master/ETL.PNG)
+Usei a plataforma do Google Cloud para poder fazer a extração e análise dos dados. Escolhi essa plataforma pois, dentre as plataformas cloud que já utilizei, a da Google foi com a qual me senti mais facilidade para o trabalho. Dentro dela, consegui fazer upload dos arquivos compartilhados para o teste dentro de um composer para ser utilizado o Apache Airflow. O composer é um kubernete que é serverless, sendo fácil a utilização pois inicia com um serviço ou aplicação que queira. Além disso, o Apache Airflow é melhor para o monitoramento das tasks. Dentro do Apache Airflow utilizei a linguagem Python para fazer a manipulação das tasks.
+No Google Cloud Plataform, utilizei o Google Big Query para fazer a análise das tabelas. Decidi utilizar o Big Query pois ele armazena dados de diferentes formatos e tem particionamento de tabelas. E, também, utilizei Cloud Storage para melhor utilizar os source files.
+Para a criação do dashboard, utilizei o Tableau, onde fiz conexão com o Google Big Query.
 
 ----
 ## Observação
