@@ -57,6 +57,11 @@ Para uma sprint quinzenal, envolvendo 5 analistas, baseei-me na seguinte pontua�
 ![Google Cloud Plataform](https://github.com/theadriano/DeliveryMuch/blob/master/google%20cloud%20plataform.PNG)
 
 Usei a plataforma do Google Cloud para poder fazer a extração e análise dos dados. Escolhi essa plataforma pois, dentre as plataformas cloud que já utilizei, a da Google foi com a qual me senti mais facilidade para o trabalho. Além disso, Como eu já tinha gasto os nas outras clouds os valores que é dado gratuitamente, optei pela Google Cloud. Dentro dela, consegui fazer upload dos arquivos compartilhados para o teste dentro de um composer para ser utilizado o Apache Airflow, que foi necessário para orquestrar todo o pipeline de dados. O composer é um kubernete que é serverless, sendo fácil a utilização pois inicia com um serviço ou aplicação que queira. Além disso, o Apache Airflow é melhor para o monitoramento das tasks. Dentro do Apache Airflow utilizei a linguagem Python para fazer a manipulação das tasks. Além disso, com o Airflow, tenho maior gerenciamento, dinamismo e manutenção do pipeline.
+Para a manipulação dos dados, utilizei comandos bash, linguagem Python e yml (arquivos utilizados estão logo abaixo). Por exemplo, para o download dos arquivos, foi utilizado o comando curl. Tal comando é usado para fazer o download de endereços http e https.
+
+>[Monitoramento Airflow](https://github.com/theadriano/DeliveryMuch/blob/master/airflow_monitoring.py)
+>[Arquivo de Configuração](https://github.com/theadriano/DeliveryMuch/blob/master/DeliveryMuch.yml)
+>[Execução dos Processos](https://github.com/theadriano/DeliveryMuch/blob/master/DagCode.py)
 No Google Cloud Plataform, utilizei o Google Big Query para fazer a análise das tabelas. Decidi utilizar o Big Query pois ele armazena dados de diferentes formatos e tem particionamento de tabelas. E, também, utilizei Cloud Storage para melhor utilizar os source files.
 Para a criação do dashboard, utilizei o Tableau, onde fiz conexão com o Google Big Query.
 
