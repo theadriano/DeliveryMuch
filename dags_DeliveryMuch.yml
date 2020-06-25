@@ -1,0 +1,82 @@
+dagname: DeliveryMuch
+schedule_interval: '0 3 * * *'
+description :
+etlflow: 
+  job1:
+    task_ExtractFilesS3: 
+      tasktype: DummyOperator
+      task_id: ExtractFilesS3
+      depends_on_task:
+      retries: 0
+    task_ExtractStores: 
+      tasktype: BashOperator
+      task_id: ExtractStores
+      depends_on_task:
+         - ExtractFilesS3
+      command: curl -k -X GET "https://s3.amazonaws.com/devmuch-data-test/stores.csv.tar.gz" > /home/airflow/gcs/data/stores.csv.tar.gz
+      retries: 0
+    task_ExtractOrders: 
+      tasktype: BashOperator
+      task_id: ExtractOrders
+      depends_on_task:
+         - ExtractFilesS3
+      command: curl -k -X GET "https://s3.amazonaws.com/devmuch-data-test/orders.json.tar.gz" > /home/airflow/gcs/data/orders.json.tar.gz
+      retries: 0
+    task_ExtractCustomers: 
+      tasktype: BashOperator
+      task_id: ExtractCustomers
+      depends_on_task:
+         - ExtractFilesS3
+      command: curl -k -X GET "https://s3.amazonaws.com/devmuch-data-test/customers.sql.tar.gz" > /home/airflow/gcs/data/customers.sql.tar.gz
+      retries: 0
+    task_CleanFile: 
+      tasktype: DummyOperator
+      task_id: CleanFile
+      depends_on_task:
+       - ExtractStores
+       - ExtractOrders
+       - ExtractCustomers
+      retries: 0
+    task_UncompressStores: 
+      tasktype: BashOperator
+      task_id: UncompressStores
+      depends_on_task:
+         - CleanFile
+      command: tar -zxvf /home/airflow/gcs/data/stores.csv.tar.gz -C /home/airflow/gcs/data/
+      retries: 0
+    task_CleanStores: 
+      tasktype: BashOperator
+      task_id: CleanStores
+      depends_on_task:
+         - UncompressStores
+      command: grep -v '\#ERROR' /home/airflow/gcs/data/stores.csv > /home/airflow/gcs/data/stores_clean.csv
+      retries: 0
+    task_UncompressOrders: 
+      tasktype: BashOperator
+      task_id: UncompressOrders
+      depends_on_task:
+         - CleanFile
+      command: tar -zxvf /home/airflow/gcs/data/orders.json.tar.gz -C /home/airflow/gcs/data/
+      retries: 0
+    task_UncompressCustomers: 
+      tasktype: BashOperator
+      task_id: UncompressCustomers
+      depends_on_task:
+         - CleanFile
+      command: tar -zxvf /home/airflow/gcs/data/customers.sql.tar.gz -C /home/airflow/gcs/data/
+      retries: 0
+    task_LoadData: 
+      tasktype: DummyOperator
+      task_id: LoadData
+      depends_on_task:
+       - CleanStores
+       - UncompressOrders
+       - UncompressCustomers
+      retries: 0
+    task_LoadStores:
+      tasktype: BashOperator
+      task_id: LoadStores
+      depends_on_task:
+        - LoadData
+      command: gsutil cp /home/airflow/gcs/data/stores_clean.csv gs://delivery_bucket 
+      retries: 0
