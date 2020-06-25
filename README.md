@@ -60,6 +60,8 @@ Usei a plataforma do Google Cloud para poder fazer a extração e análise dos d
 No Google Cloud Plataform, utilizei o Google Big Query para fazer a análise das tabelas. Decidi utilizar o Big Query pois ele armazena dados de diferentes formatos e tem particionamento de tabelas. E, também, utilizei Cloud Storage para melhor utilizar os source files.
 Para a criação do dashboard, utilizei o Tableau, onde fiz conexão com o Google Big Query.
 
+>[Link para acompanhar os processos Airflow](https://console.cloud.google.com/composer/environments/detail/southamerica-east1/deliverymuch/monitoring?project=opportune-balm-281114)
+
 ![ETL](https://github.com/theadriano/DeliveryMuch/blob/master/ETL.PNG)
 
 Usando como base de dados "stores", criei um dashboard onde mostra o tempo de entrega que a Delivery Much oferece ao usuário e a média que leva para o pedido ser entregue.
