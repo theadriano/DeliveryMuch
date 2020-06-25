@@ -60,8 +60,11 @@ Usei a plataforma do Google Cloud para poder fazer a extração e análise dos d
 Para a manipulação dos dados, utilizei comandos bash, linguagem Python e yml (arquivos utilizados estão logo abaixo). Por exemplo, para o download dos arquivos, foi utilizado o comando curl. Tal comando é usado para fazer o download de endereços http e https.
 
 >[Monitoramento Airflow](https://github.com/theadriano/DeliveryMuch/blob/master/airflow_monitoring.py)
+
 >[Arquivo de Configuração](https://github.com/theadriano/DeliveryMuch/blob/master/DeliveryMuch.yml)
+
 >[Execução dos Processos](https://github.com/theadriano/DeliveryMuch/blob/master/DagCode.py)
+
 No Google Cloud Plataform, utilizei o Google Big Query para fazer a análise das tabelas. Decidi utilizar o Big Query pois ele armazena dados de diferentes formatos e tem particionamento de tabelas. E, também, utilizei Cloud Storage para melhor utilizar os source files.
 Para a criação do dashboard, utilizei o Tableau, onde fiz conexão com o Google Big Query.
 
