@@ -66,7 +66,7 @@ Para a manipulação dos dados, utilizei bash, Python e yaml (arquivos utilizado
 >[Execução dos Processos](https://github.com/theadriano/DeliveryMuch/blob/master/DagCode.py)
 
 No Google Cloud Plataform, utilizei o Google Big Query para fazer a análise das tabelas. Utilizei o Big Query pois ele armazena dados de diferentes formatos e tem particionamento de tabelas. E, também, utilizei Cloud Storage para melhor utilizar os source files.
-Para a criação do dashboard, utilizei o Tableau, onde fiz conexão com o Google Big Query.
+Para a criação do dashboard, utilizei o Tableau, fazendo a conexão com o Google Big Query.
 
 >[Link para acompanhar os processos Airflow](https://console.cloud.google.com/composer/environments/detail/southamerica-east1/deliverymuch/monitoring?project=opportune-balm-281114)
 
