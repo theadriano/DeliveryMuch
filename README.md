@@ -73,7 +73,7 @@ Para a criação do dashboard, utilizei o Tableau, fazendo a conexão com o Goog
 ![ETL](https://github.com/theadriano/DeliveryMuch/blob/master/ETL.PNG)
 
 Usando como base de dados "stores", criei um dashboard onde mostra o tempo de entrega que a Delivery Much oferece ao usuário e a média que leva para o pedido ser entregue.
-O dashboard serviria para o time de Operações criar uma estratégia adequada de melhoramento no serviço proposto. Assim como, angariar novos franqueados que buscam melhorias nos seus serviços de entrega. Para o departamento de Marketing, o dashboard é ideal para ser criado uma propaganda onde mostra a qualidade e rapidez no serviço de entrega da Delivery Much. Criei, também, um dashboard onde mostra a contagem de registros (pedidos) relacionados ao tempo de entrega proposto pela Delivery Much. Através da análise do dashboard, é possível até fazer uma melhoria no tempo de entrega proposto.
+O dashboard serviria para o time de Operações criar uma estratégia adequada de melhoramento no serviço proposto. Assim como, angariar novos franqueados que buscam melhorias nos seus serviços de entrega. Para o departamento de Marketing, o dashboard é ideal para mostrar a qualidade e rapidez no serviço de entrega da Delivery Much. Criei, também, um dashboard onde avalio a contagem de registros (pedidos) relacionados ao tempo de entrega proposto pela Delivery Much. Através da análise do dashboard, é possível fazer uma melhoria no tempo de entrega proposto.
 
 Abaixo está o link para o Tableau mostrando os dashboards criados:
 
