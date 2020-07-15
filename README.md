@@ -10,7 +10,7 @@ Para uma equipe de BI atender a todas áreas da Delivery Much, creio que a melho
 
 Para a estruturação de time, antes de mais nada, teria que entender as demandas totais de trabalho para serem analisados os perfis a serem disponibilizados. Entretanto, penso que para compôr um time de BI deveria ter profissionais como: Arquiteto de Dados, responsável em organizar o Data Warehouse ou Data Lake; Engenheiro de Dados, responsável na construção dos pipelines que irão popular o DW ou o Data Lake; Analista de Dados, responsável pela construção dos dashboards dentro da ferramenta utilizada na Delivery Much.
 
-Após o levantamento das características de perfis para o time, seria dado início ao processo de seleção dos profissionais. Penso que o processo de entrevista deve ter três etapas após a divulgação e a inscrição dos candidatos nas vagas oferecidas:
+Após o levantamento das características de perfis para o time, seria dado início ao processo de seleção dos profissionais. O processo de entrevista deve ter três etapas após a divulgação e a inscrição dos candidatos nas vagas oferecidas:
 
 1. Entrevista com o RH da empresa para entender o perfil do profissional.
 2. Teste técnico focando nas características da vaga. Por exemplo, na vaga para um Analista de Dados, seria confeccionado um teste em que o candidato deveria criar um dashboard com os dados fornecidos pela Delivery Much.
@@ -23,11 +23,11 @@ Após essas três etapas, o candidato sendo aprovado, seria feito todo o onboard
 
 Após a extração dos dados pertinentes, construção dos dashboards e a apresentação dos mesmos aos diretores e analistas de cada departamento, é possível ter uma visão macro de todo o negócio da Delivery Much.
 
-Os setores Financeiro e de Operações, conseguiriam traçar estratégias de como angarearmais fornecedores, em quais cidades expandir o serviço, em quais prazos de entrega aplicar melhorias, entre outros.
+Os setores Financeiro e de Operações, conseguiriam traçar estratégias de como angarear mais fornecedores, em quais cidades expandir o serviço, em quais prazos de entrega aplicar melhorias, entre outros.
 
 Para os setores de Engenharia e Produto, mostraria dashboards contendo feedback dos usuários, performance do aplicativo e servidores; sempre visando a melhoria do que é entregue ao usuário final.
 
-Marketing e Gente, usuariam dashboards também para ver o feedback dos usuários e para planejar a comunicação com eles e, também, planejar a divulgação dos serviços do aplicativo.
+Marketing e Gente, usariam dashboards também para ver o feedback dos usuários e para planejar a comunicação com eles e, também, planejar a divulgação dos serviços do aplicativo.
 
 ----
 ## Gestão do dia-a-dia
@@ -56,7 +56,7 @@ Para uma sprint quinzenal, envolvendo 5 analistas, baseei-me na seguinte pontua�
 ## Conhecimento Técnico
 ![Google Cloud Plataform](https://github.com/theadriano/DeliveryMuch/blob/master/google%20cloud%20plataform.PNG)
 
-Usei a plataforma do Google Cloud para poder fazer a extração e análise dos dados. Escolhi essa plataforma pois, dentre as plataformas cloud que já utilizei, a da Google foi com a qual me senti mais facilidade para o trabalho. Além disso, Como eu já tinha gasto os nas outras clouds os valores que é dado gratuitamente, optei pela Google Cloud. Dentro dela, consegui fazer upload dos arquivos compartilhados para o teste dentro de um composer para ser utilizado o Apache Airflow, que foi necessário para orquestrar todo o pipeline de dados. O composer é um kubernete que é serverless, sendo fácil a utilização pois inicia com um serviço ou aplicação que queira. Além disso, o Apache Airflow é melhor para o monitoramento das tasks. Dentro do Apache Airflow utilizei a linguagem Python para fazer a manipulação das tasks. Além disso, com o Airflow, tenho maior gerenciamento, dinamismo e manutenção do pipeline.
+Usei a plataforma do Google Cloud para poder fazer a extração e análise dos dados. Escolhi essa plataforma pois, dentre as plataformas cloud que já utilizei, a da Google foi com a qual senti mais facilidade para o trabalho. Dentro dela, consegui fazer upload dos arquivos compartilhados para o teste dentro de um composer para utilizar o Apache Airflow, que foi necessário para orquestrar todo o pipeline de dados. O composer é um kubernetes que é serverless, sendo fácil a utilização pois inicia com um serviço ou aplicação que queira. Além disso, o Apache Airflow é melhor para o monitoramento das tasks. Dentro do Apache Airflow utilizei a linguagem Python para fazer a manipulação das tasks. Além disso, com o Airflow, tenho maior gerenciamento, dinamismo e manutenção do pipeline.
 Para a manipulação dos dados, utilizei comandos bash, linguagem Python e yml (arquivos utilizados estão logo abaixo). Por exemplo, para o download dos arquivos, foi utilizado o comando curl. Tal comando é usado para fazer o download de endereços http e https.
 
 >[Monitoramento Airflow](https://github.com/theadriano/DeliveryMuch/blob/master/airflow_monitoring.py)
